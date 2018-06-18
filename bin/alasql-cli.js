@@ -39,7 +39,7 @@ let yargs = require('yargs')
 .help('h')
 	.alias('h', 'help')
 
-.epilog('\nMore information about the library: www.alasql.org')
+.epilog('\nMore information about the library: alasql.org')
 
 let argv = yargs.argv;
 let sql = '';
